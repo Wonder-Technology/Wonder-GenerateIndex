@@ -1,0 +1,12 @@
+jest_0/
+.DS_Store
+yarn.lock
+.merlin
+.idea/
+.vscode/
+lib/bs/
+lib/**/src/
+reference/
+node_modules/
+mine/
+test/coverage

@@ -1,0 +1,10 @@
+{
+    "automock": false,
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testRegex": "lib/js/test/.+test\\.js$",
+    "setupTestFrameworkScriptFile": "<rootDir>/test/helper/jest/specHelper.js",
+    "notify": false,
+    "verbose": true
+  }

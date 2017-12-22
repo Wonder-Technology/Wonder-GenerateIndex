@@ -1,0 +1,31 @@
+{
+  "name": "wonder-generateIndex",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "test",
+      "subdirs": true,
+      "type": "dev"
+    }
+  ],
+  "bs-dev-dependencies": [
+    "wonder-bs-jest",
+    "wonder-bs-sinon"
+  ],
+  "refmt": 3,
+  "bs-dependencies": [
+    "bs-glob",
+    "wonder-commonlib"
+  ],
+  "package-specs": [
+    "commonjs"
+  ],
+  "namespace": false,
+  "warnings": {
+    "number": "-10-26-27-K-44-45",
+    "error": "+5+6"
+  }
+}

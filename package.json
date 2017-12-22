@@ -1,0 +1,27 @@
+{
+  "name": "wonder-generate-index",
+  "version": "0.0.1",
+  "authors": "DreamForest",
+  "description": "generate index for rollup",
+  "homepage": "https://github.com/DreamForeast/Wonder-GenerateIndex",
+  "license": "MIT",
+  "main": "./lib/js/src/Generate.js",
+  "scripts": {
+    "watch": "bsb -clean-world -make-world -w",
+    "build": "bsb -clean-world -make-world",
+    "test": "npm run build && jest --config jest.json",
+    "test:watch": "jest --watch --config jest.json"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "bs-platform": "2.1.0",
+    "wonder-bs-jest": "^0.2.6",
+    "wonder-bs-sinon": "^0.1.4"
+  },
+  "dependencies": {
+    "bs-glob": "reasonml-community/bs-glob",
+    "wonder-commonlib": "0.2.13"
+  }
+}

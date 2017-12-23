@@ -36,9 +36,15 @@ let _ =
 
 let minus = Test2.minus;
 
+let v2 = Test2.v2;
+
 let constant1 = Test1.constant1;
 
-let add1 = Test1.add1;|}
+let add1 = Test1.add1;
+
+let func1 = Test1.func1;
+
+let v1 = Test1.v1;|}
              )
         }
       )

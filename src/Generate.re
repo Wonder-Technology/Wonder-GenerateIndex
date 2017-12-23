@@ -30,7 +30,7 @@ let _buildContent = (fileDataList) =>
   |> ((content) => content |> Js.String.slice(~from=0, ~to_=Js.String.length(content) - 2));
 
 let _findPublicFunctionList = (code: string) => {
-  let regex = [%re {|/^let\s+([a-zA-Z][\w\d]+)\s+\=\s+\(/mg|}];
+  let regex = [%re {|/^let\s+([a-zA-Z][\w\d]+)\s+\=\s+/mg|}];
   let break = ref(false);
   let resultList = ref([]);
   while (! break^) {

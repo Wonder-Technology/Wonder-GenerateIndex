@@ -1,5 +1,7 @@
 let v1 = "aaa";
 
+let func1 = Test2.minus;
+
 let _private = (a, b) => {
     a + b + 2
 };

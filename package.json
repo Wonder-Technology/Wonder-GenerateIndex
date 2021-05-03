@@ -1,6 +1,6 @@
 {
   "name": "wonder-generate-index",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "authors": "DreamForest",
   "description": "generate index for rollup",
   "homepage": "https://github.com/DreamForeast/Wonder-GenerateIndex",
@@ -21,7 +21,6 @@
     "wonder-bs-sinon": "^0.1.4"
   },
   "dependencies": {
-    "bs-glob": "reasonml-community/bs-glob",
     "wonder-commonlib": "0.2.13"
   }
 }

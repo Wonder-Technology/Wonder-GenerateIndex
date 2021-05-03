@@ -17,7 +17,6 @@
   ],
   "refmt": 3,
   "bs-dependencies": [
-    "bs-glob",
     "wonder-commonlib"
   ],
   "package-specs": [

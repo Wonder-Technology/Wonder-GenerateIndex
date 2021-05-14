@@ -1,1 +1,0 @@
-[@bs.module "glob"][@@bs.val] external extname : sync : string => string array = "";

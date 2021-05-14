@@ -1,9 +1,9 @@
 {
   "name": "wonder-generate-index",
-  "version": "0.1.2",
-  "authors": "DreamForest",
+  "version": "0.1.4",
+  "authors": "Wonder",
   "description": "generate index for rollup",
-  "homepage": "https://github.com/DreamForeast/Wonder-GenerateIndex",
+  "homepage": "https://github.com/yyc-git/Wonder-GenerateIndex",
   "license": "MIT",
   "main": "./lib/js/src/Generate.js",
   "scripts": {
